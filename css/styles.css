@@ -380,6 +380,10 @@ header {
   margin: 0 auto;
 }
 
+.about-me__body a {
+  text-decoration: underline;
+}
+
 .about-me__img {
   box-shadow: var(--bs);
 }
