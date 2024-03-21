@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deliciously Global</title>
+    <!-- Normalize CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&family=Source+Sans+Pro:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS STylesheet Link -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- <div class="logo">
+        <img src="AVIAF_RESALE-AltIcon_300PPI.png" alt="" id="logo" />
+      </div> -->
+      <div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="/index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="/index.html#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="/index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="/index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="https://drive.google.com/file/d/17UxL9KpSbU7hAesRhto9N57KhKXX0Cvp/view?usp=sharing"
+              class="nav__link"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        <strong>Deliciously Global</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        A modern and responsive site for small business
+      </p>
+      <img
+        src="/assets/denver-electrolysis-1.png"
+        alt="a thumbnail of the homepage"
+        id="restaurant"
+      />
+    </section>
+
+    <div class="portfolio-item-individual main__portfolio-item-individual">
+      <p>
+        This site was created for one of my local clients, Deliciously Global.
+        The business was without a website and approached me about creating
+        something for them that satisfied their need to connect with potential
+        clients, but also would fit within their marketing budget and would be
+        completed by their specified deadline.
+      </p>
+      <a href="https://deliciouslyglobal.com/" target="_blank"
+        ><img
+          id="restaurant"
+          src="/assets/denver-electrolysis-2.png"
+          alt="a picture of the website hero section"
+      /></a>
+
+      <p>
+        Using a combination of HTML, CSS, JavaScript, Sass, and Git, this site
+        performs well on all screen sizes, uses metadata for search engine
+        optimization, and follows accessibility standards to ensure that clients
+        searching for their services will be easily able to find them, contact
+        them through a custom form, and book appointments.
+      </p>
+      <p class="quote">
+        "James was a very knowledgeable resource for generating and designing my
+        first website for my small private cheffing business. He made the
+        process incredibly easy by explaining the timeline, and what to expect
+        in detail and ensuring that I was comfortable every step of the way. He
+        understood what I was asking for in terms of design and content and made
+        it come to life. I am happy and excited to retain him for future changes
+        and developments for my website as my company grows thanks to the
+        beautiful website he created for me.”
+        <a
+          href="https://deliciouslyglobal.com/"
+          target="_blank"
+          class="quote-person"
+          >Kate, Deliciously Global</a
+        >
+      </p>
+
+      <div class="portfolio__buttons">
+        <div class="portfolio__item-btn">
+          <a href="https://deliciouslyglobal.com/" class="btn" target="_blank"
+            >View the site</a
+          >
+        </div>
+
+        <div class="portfolio__item-btn">
+          <a
+            href="https://github.com/JDemlow/deliciously-global-client"
+            class="btn"
+            target="_blank"
+            >See the code</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <!-- replace with personal email -->
+      <a href="mailto:jdemlowdev@gmail.com" class="footer__link"
+        >jdemlowdev@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/jamesdemlow/"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://github.com/JDemlow"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+
+        <!-- <li class="social-list__item">
+          <a
+            href="https://codepen.io/JDemlow"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fa-brands fa-codepen"></i
+          ></a>
+        </li> -->
+        <!-- <li class="social-list__item">
+          <a
+            href="https://twitter.com/james_demlow"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li> -->
+      </ul>
+    </footer>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
