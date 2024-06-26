@@ -422,6 +422,18 @@ header {
     position: relative;
     z-index: 2;
   }
+
+  .section__subtitle--about::before {
+    content: "";
+    display: block;
+    height: 100%;
+    background: var(--clr-light);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    z-index: -1;
+  }
 }
 
 .quote {
@@ -484,12 +496,6 @@ div .portfolio__img {
   opacity: 0.5;
 }
 
-/* Starbucks Porfolio Page */
-
-.starbucks__portfolio-item-individual img {
-  padding: 50px;
-}
-
 .portfolio__item-btn {
   padding: 1em;
 }
@@ -498,6 +504,14 @@ div .portfolio__img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Make Portfolio Buttons Stack on Mobile */
+
+@media (max-width: 600px) {
+  .portfolio__buttons {
+    flex-direction: column;
+  }
 }
 
 /* footer */
