@@ -308,7 +308,7 @@ header {
   .intro {
     display: grid;
     width: min-content;
-    margin: 0 auto;
+    margin: 1rem auto;
     grid-column-gap: 1em;
     grid-template-areas:
       "img title"
@@ -322,6 +322,7 @@ header {
     position: relative;
     z-index: 2;
   }
+
   .section__subtitle--intro {
     align-self: start;
     grid-column: -1 / 1;
